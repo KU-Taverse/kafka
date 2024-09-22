@@ -1,0 +1,6 @@
+[2024-06-18 20:22:24,314] INFO [Log partition=spark-0, dir=/tmp/kafka-logs] Deleting segment LogSegment(baseOffset=0, size=1073731382, lastModifiedTime=1718078530850, largestRecordTimestamp=Some(1718078530848)) due to retention time 604800000ms breach based on the largest record timestamp in the segment (kafka.log.Log)
+[2024-06-18 20:22:24,321] INFO [Log partition=spark-0, dir=/tmp/kafka-logs] Incremented log start offset to 9698817 due to segment deletion (kafka.log.Log)
+[2024-06-18 20:27:09,771] INFO [Log partition=spark-0, dir=/tmp/kafka-logs] Deleting segment files LogSegment(baseOffset=0, size=1073731382, lastModifiedTime=1718078530850, largestRecordTimestamp=Some(1718078530848)) (kafka.log.Log)
+[2024-06-18 20:27:09,807] INFO Deleted log /tmp/kafka-logs/spark-0/00000000000000000000.log.deleted. (kafka.log.LogSegment)
+[2024-06-18 20:27:09,840] INFO Deleted offset index /tmp/kafka-logs/spark-0/00000000000000000000.index.deleted. (kafka.log.LogSegment)
+[2024-06-18 20:27:09,847] INFO Deleted time index /tmp/kafka-logs/spark-0/00000000000000000000.timeindex.deleted. (kafka.log.LogSegment)
